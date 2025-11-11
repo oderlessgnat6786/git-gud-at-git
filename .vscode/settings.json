@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    ,
+        // Turn off inline suggestions (covers Copilot inline/autocomplete)
+        "editor.inlineSuggest.enabled": false,
+        // Try to disable Copilot extension suggestions (expects per-language object)
+        "github.copilot.enable": {
+            "*": false
+        },
+        "github.copilot.inlineSuggest.enable": false
+}
